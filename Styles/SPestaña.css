@@ -1,0 +1,44 @@
+body{
+    background-color: goldenrod;
+}
+li {
+    display: inline;
+}
+li {
+    float: right;
+  }
+  
+  a {
+    display: table-footer-group;
+    padding: 0px;
+    background-color: darkgoldenrod; /* sirve par darle color a cada item de la pestaña nav. */
+    
+  }
+
+  ul {
+    list-style-type: none; /* sirve para el estilo de la lista*/
+    margin: 0px; /* sirve para el margen en la pestaña de nav. */
+    padding: 0px; /* el padding se encarga del tab desde el inicio de pestaña de nav.  */
+    overflow: hidden; /* Borde completo de la barra, con propiedades Clip, Scroll, hidden, (Scroll agrega barras de desplamiento  */
+    background-color: teal; /* Cambia el color de fondo de la barra */
+    border: 3px solid green; /* Cambia el color del borde, solid tipo de fundido, 3px el grosor */
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color:white; /* Color de letra de los Item de la penstaña nav. */
+    text-align: center; /* Hubica izquierda, dercha o centrada la letra en el item. */
+    padding: 6px 8px; /* Cambia el tamaño del item de la Pestaña nav*/
+    text-decoration: none;
+    animation-play-state: inherit;
+    font-size: 20px;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: red ;
+  }
