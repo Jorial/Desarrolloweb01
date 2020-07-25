@@ -1,5 +1,5 @@
 body{
-    background-color: goldenrod;
+    background-color: crimson;
 }
 li {
     display: inline;
@@ -10,15 +10,18 @@ li {
   
   a {
     display: table-footer-group;
-    padding: 0px;
-    background-color: darkgoldenrod; /* sirve par darle color a cada item de la pestaña nav. */
+    padding-inline-start: 40px;    
+    box-sizing: 40px;
+    place-items: 40px;
+    
+
     
   }
 
   ul {
     list-style-type: none; /* sirve para el estilo de la lista*/
     margin: 0px; /* sirve para el margen en la pestaña de nav. */
-    padding: 0px; /* el padding se encarga del tab desde el inicio de pestaña de nav.  */
+    padding-left: 130px; /* el padding se encarga del tab desde el inicio de pestaña de nav.  */
     overflow: hidden; /* Borde completo de la barra, con propiedades Clip, Scroll, hidden, (Scroll agrega barras de desplamiento  */
     background-color: teal; /* Cambia el color de fondo de la barra */
     border: 3px solid green; /* Cambia el color del borde, solid tipo de fundido, 3px el grosor */
@@ -26,6 +29,8 @@ li {
   
   li {
     float: left;
+    padding-left: 10px;
+    
   }
   
   li a {
@@ -42,3 +47,15 @@ li {
   li a:hover {
     background-color: red ;
   }
+  nav 
+  {
+    width: 700px;
+    height: 10px;
+    margin-top: 0px;
+    align-self: center;
+    align-content: center;
+    margin-left: 300px;
+    
+  }
+
+  

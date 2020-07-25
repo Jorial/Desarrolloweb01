@@ -1,0 +1,33 @@
+body 
+    {
+        background-color: teal;
+    }
+
+    li
+    {
+        
+       display: block;
+        padding: 20px;
+        text-align: left;
+    }
+    li a 
+        {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            
+           
+           
+        }
+
+        li a:hover
+        {
+            font-size: 25px;
+            color: orangered;
+        }
+
+        h1
+        {
+            text-align: center;
+        }
+       

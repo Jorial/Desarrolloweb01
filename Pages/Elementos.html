@@ -1,12 +1,402 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Elementos de html </h1>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../Styles/element.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div id= maint>        
+            <table >  
+                <caption> <b> Elemento Raiz </b> </caption>   
+                <thead>      
+                <tr id="trRaiz">
+                    <th id="Enu"><b> No. </b></th>
+                    <th> <b>Elemento</b> </th>                
+                    <th><b> Descripcion </b> </th>
+                </tr>
+            </thead>  
+                <tr >
+                    <td> 1 </td>
+                    <td>  < !doctype html > </td>
+                    <td> Representa la raíz de un documento HTML o XHTML. Todos los demás elementos deben ser descendientes de este elemento. </td>
+                </tr>                     
+            </table>
+        </div>
+        <div>
+            <table>
+                <caption> <b> Metadatos del Documento </b> </caption>
+                <thead>
+                <tr>
+                    <th id="Enu"><b> No. </b></th>
+                    <th> <b>Elemento</b> </th>                
+                    <th><b> Descripcion </b> </th>
+                </tr>
+            </thead>
+                <tr>
+                    <td> 2 </td>
+                    <td>  < head >  </td>
+                    <td> Representa una colección de metadatos acerca del documento, incluyendo enlaces a, o definiciones de, scripts y hojas de estilo. </td>
+                </tr>
+                <tr>
+                    <td> 2 </td>
+                    <td> < base ></td>
+                    <td> Define la URL base para las URLs relativas en la página. </td>
+                    
+                </tr>
+                <tr>
+                    <td> 4 </td>
+                    <td> < link > </td>
+                    <td> Usada para enlazar JavaScript y CSS externos con el documento HTML actual.</td>
+                </tr>
+                <tr>
+                    <td> 5 </td>
+                    <td> < meta > </td>
+                    <td> Define los metadatos que no pueden ser definidos usando otro elemento HTML. </td>
+                </tr>
+                <tr>
+                    <td> 6 </td>
+                    <td>  < style ></style>  </td>
+                    <td> Etiqueta de estilo usada para escribir CSS en línea. </td>               
+                    
+                </tr>
+            </table>
+        </div>
+        <div>
+            <table>
+                <caption> <b> Scripting </b></caption>
+                <thead>
+                <tr>
+                    <th id="Enu"><b> No. </b></th>
+                    <th><b>Elemento</b></th>
+                    <th><b>Descripcion</b></th>
+                </tr>
+                </thead>
+                <tr>
+                    <td> 7 </td>
+                    <td> < script></script> </td>
+                    <td> Define ya sea un script interno o un enlace hacia un script externo. El lenguaje de programación es JavaScript </td>
+                </tr>
+                <tr>
+                    <td> 8 </td>
+                    <td>< noscript ></noscript></td>
+                    <td> Define un contenido alternativo a mostrar cuando el navegador no soporta scripting.</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <table>
+                <caption> <b> Secciones </b></caption>
+                <thead>
+                <tr>
+                    <th id="Enu"><b> No. </b></th>
+                    <th> <b> Elemento</b> </th>
+                    <th> <b> Descripcion </b></th>                
+                </tr>
+                </thead>
+                <tr>
+                    <td> 9 </td>
+                    <td> < body ></body> </td>
+                    <td> Representa el contenido principal de un documento HTML. Solo hay un elemento < body > en un documento. </td>            
+                </tr>
+                <tr>
+                    <td> 10 </td>
+                    <td>< section ></section></td>
+                    <td>Define una sección en un documento.</td>
+                </tr>
+                <tr>
+                    <td> 11 </td>
+                    <td> < nav ></td>
+                    <td>Define una sección que solamente contiene enlaces de navegación</td>
+                </tr>
+                <tr>
+                    <td> 12 </td>
+                    <td>< article > </td>
+                    <td> Define contenido autónomo que podría existir independientemente del resto del contenido. </td>
+                </tr>
+                <tr>
+                    <td> 13 </td>
+                    <td>< aside > </td>
+                    <td> Define algunos contenidos vagamente relacionados con el resto del contenido de la página. Si es removido, el contenido restante seguirá teniendo sentido </td>
+                </tr>
+                <tr>
+                    
+                    <td> 14 </td>
+                    <td> < h1 >,< h2 >,< h3 >,< h4 >,< h5 >,< h6 > </td>
+                    <td>Los elemento de cabecera  implementan seis niveles de cabeceras de documentos; < h1 > es la de mayor y < h6 > es la de menor importancia. Un elemento de cabecera describe brevemente el tema de la sección que introduce.</td>
+                </tr>
+                <tr>
+                    <td> 15 </td>
+                    <td> < header > </td>  
+                    <td> Define la cabecera de una página o sección. Usualmente contiene un logotipo, el título del sitio Web y una tabla de navegación de contenidos. </td>                
+                </tr>
+                <tr>
+                    <td> 16 </td>
+                    <td> < footer > <br> </td>
+                    <td>Define el pie de una página o sección. Usualmente contiene un mensaje de derechos de autoría, algunos enlaces a información legal o direcciones para dar información de retroalimentación.</td>
+                </tr>
+                <tr>
+                    <td> 17 </td>
+                    <td> < address > </td>
+                    <td> Define una sección que contiene información de contacto.</td>
+                </tr>
+                <tr>
+                    <td> 18 </td>
+                    <td>
+                        < main > 
+                    </td>
+                    <td> Define el contenido principal o importante en el documento. Solamente existe un elemento <main> en el documento. </td>
+                </tr>
+            </table>
     
-</body>
+            <div>
+    
+            
+            <table>
+                <caption>Agrupación de Contenido</caption>
+                <thead>
+                <tr>
+                    <th id="Enu"><b> No. </b></th>
+                    <th> <b> Elemento</b> </th>
+                    <th> <b> Descripcion </b></th>
+                </tr>
+                 </thead>
+                <tr>
+                    <td>19</td>
+                    <td>< p ></td>
+                    <td>Define una parte que debe mostrarse como un párrafo.</td>
+                    
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>< hr ></td>
+                    <td> Representa un quiebre temático entre párrafos de una sección o articulo o cualquier contenido. </td>
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td>< pre ></td>
+                    <td> Indica que su contenido esta preformateado y que este formato debe ser preservado.</td>
+                </tr>
+                <tr>
+                    <td>22</td>
+                    <td>< blockquote ></td>                
+                    <td> Representa un contenido citado desde otra fuente. </td>
+                </tr>
+                <tr>
+                    <td>23</td>
+                    <td>< ol ></ol></td>
+                    <td> Define una lista ordenada de artículos. </td>
+                </tr>
+                <tr>
+                    <td>23</td>
+                    <td>< li ></td>
+                    <td>Define un artículo de una lista enumerada.</td>
+                </tr>
+                <tr>
+                    <td>24</td>
+                    <td>< dl > </dl></td>
+                    <td>Define una lista de definiciones, es decir, una lista de términos y sus definiciones asociadas.</td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td> < dt ></td>
+                    <td> Representa un término definido por el siguiente < dd > </td>
+                  
+                </tr>
+                <tr>
+                    <td>26</td>
+                    <td> < dd > </td>
+                    <td>Representa la definición de los términos listados antes que él.</td>
+                </tr>
+                <tr>
+                    <td>28</td>
+                    <td> < figure >  </td>
+                    <td>Representa una figura ilustrada como parte del documento.</td>
+                </tr>
+                <tr>
+                    <td>29</td>
+                    <td> < figcaption > </td>
+                    <td> Representa la leyenda de una figura. </td>
+                    
+                </tr>
+                <tr>
+                    <td>30</td>
+                    <td> < div > </td>
+                    <td> Representa un contenedor genérico sin ningún significado especial. </td>
+                </tr>        
+                
+            </table>
+            <table>
+                <caption>Semántica a nivel de Texto</caption>
+                <thead>
+                <tr>
+                    <th ><b> No. </b></th>
+                    <th> <b> Elemento</b> </th>
+                    <th> <b> Descripcion </b></th>
+    
+                </tr>
+                 </thead>
+                <tr>
+                    <td>31</td>
+                    <td> < a > </td>
+                    <td>SRepresenta un hiperenlace, enlazando a otro recurso.</td>
+                </tr>
+                <tr>
+                    <td>32</td>
+                    <td>< em ></td>
+                    <td>Representa un texto enfatizado, como un acento de intensidad.</td>
+                </tr>
+                <tr>
+                    <td>33</td>
+                    <td>< strong > </td>
+                    <td>Representa un texto especialmente importante.</td>
+                </tr>
+                <tr>
+                    <td>34</td>
+                    <td> < small > </td>
+                    <td>Representa un comentario aparte, es decir, textos como un descargo de responsabilidad o una nota de derechos de autoría, que no son esenciales para la comprensión del documento.</td>
+                </tr>
+                <tr>
+                    <td>35</td>
+                    <td>< s > </td>
+                    <td>Representa contenido que ya no es exacto o relevante.</td>
+                </tr>
+                <tr>
+                    <td>36</td>
+                    <td>< cite > </td>
+                    <td>Representa el título de una obra.</td>
+                </tr>
+                <tr>
+                    <td>37</td>
+                    <td>< q > </td>
+                    <td>Representa una cita textual inline.</td>
+                </tr>
+                <tr>
+                    <td>38</td>
+                    <td>< dfn > </td>
+                    <td>Representa un término cuya definición  está contenida en su contenido ancestro más próximo.</td>
+                </tr>
+                <tr>
+                    <td>39</td>
+                    <td>< abbr > </td>
+                    <td>Representa una abreviación o un acrónimo ; la expansión de la abreviatura puede ser representada por el atributo title.</td>
+                </tr>
+                <tr>
+                    <td>40</td>
+                    <td>< data ></td>
+                    <td>Asocia un equivalente legible por máquina a sus contenidos. (Este elemento está sólamente en la versión de la WHATWG del estandar HTML, y no en la versión de la W3C de HTML5).</td>
+                </tr>
+                <tr>
+                    <td>41</td>
+                    <td>< Time > </td>
+                    <td>Representa un valor de fecha y hora; el equivalente legible por máquina puede ser representado en el atributo datetime.</td>
+                </tr>
+                <tr>
+                    <td>42</td>
+                    <td>< code ></td>
+                    <td>Representa un código de ordenador.</td>
+                </tr>
+                <tr>
+                    <td>43</td>
+                    <td>< var> </td>
+                    <td>Representa a una variable, es decir, una expresión matemática o contexto de programación, un identificador que represente a una constante, un símbolo que identifica una cantidad física, un parámetro de una función o un marcador de posición en prosa.</td>
+                </tr>
+                <tr>
+                    <td>44</td>
+                    <td>< sapm ></td>
+                    <td>Representa la salida de un programa o un ordenador.</td>
+                </tr>
+                <tr>
+                    <td>45</td>
+                    <td>< kbd > </td>
+                    <td> Representa la entrada de usuario, por lo general desde un teclado, pero no necesariamente, este puede representar otras formas de entrada de usuario, como comandos de voz transcritos.</td>
+                </tr>
+                <tr>
+                    <td>46</td>
+                    <td>< sub ></td>
+                    <td>Representa subíndice </td>
+                </tr>
+                <tr>
+                    <td>47</td>
+                    <td>< sup > </td>
+                    <td>Representan superíndice</td>
+                </tr>
+                <tr>
+                    <td>48</td>
+                    <td>< i > </td>
+                    <td>Representa un texto en una voz o estado de ánimo alterno, o por lo menos de diferente calidad, como una designación
+                         taxonómica, un término técnico, una frase idiomática, un pensamiento o el nombre de un barco.</td>
+                </tr>
+                <tr>
+                    <td>49</td>
+                    <td> < b > </td>
+                    <td> Representa un texto hacia el cual se llama la atención para propósitos utilitarios. 
+                         No confiere ninguna importancia adicional y no implica una voz alterna.  </td>
+                </tr>
+                <tr>
+                    <td>50</td>
+                    <td> < u > </td>
+                    <td> Representa una anotación no textual sin-articular, como etiquetar un texto como mal escrito 
+                        o etiquetar un nombre propio en texto en chino. </td>
+                </tr>
+                <tr>
+                    <td> 51 </td>
+                    <td>< mark > </td>
+                    <td> Representa texto resaltado con propósitos de referencia, es decir por su relevancia en otro contexto. </td>
+                </tr>
+                <tr>
+                    <td>52</td>
+                    <td> < ruby > </td>
+                    <td>Representa contenidos a ser marcados con anotaciones ruby, recorridos cortos de texto presentados junto al
+                         texto. Estos son utilizados con regularidad en conjunto a lenguajes de Asia del Este, donde las anotaciones
+                          actúan como una guía para la pronunciación, como el furigana japonés.</td>
+                </tr>
+                <tr>
+                    <td>53</td>
+                    <td> < rt > </td>
+                    <td>Representa el texto de una anotación ruby</td>
+                </tr>
+                <tr>
+                    <td>54</td>
+                    <td> < rp > </td>
+                    <td> 	Representa los paréntesis alrededor de una anotación ruby, usada para mostrar la anotación de manera 
+                        alterna por los navegadores que no soporten despliegue estandar para las anotaciones. </td>
+                </tr>
+                <tr>
+                    <td>55</td>
+                    <td> < dbi > </td>
+                    <td> Representa un texto que debe ser aislado de sus alrededores para el formateado bidireccional del texto. 
+                         Permite incrustar un fragmento de texto con una direccionalidad diferente o desconocida. </td>
+                </tr>
+                <tr>
+                    <td> 56 </td>
+                    <td> < bdo > </td>
+                    <td> Representa la direccionalidad de sus descendientes con el fin de anular de forma explícita al
+                         algoritmo bidireccional Unicode. </td>
+                </tr>
+                <tr>
+                    <td>57</td>
+                    <td> < span > </td>
+                    <td> Representa texto sin un significado específico.  Este debe ser usado cuando ningún otro elemento 
+                        semántico le confiere un significado adecuado, en cuyo caso, provendrá de atributos globales como class, lang, o dir. </td>
+                </tr>
+                <tr>
+                    <td>58</td>
+                    <td> < br >  </td>
+                    <td> Representa un salto de línea.</td>
+                </tr>
+                <tr>
+                    <td>59</td>
+                    <td> < wbr >  </td>
+                    <td> Representa una oportunidad de salto de línea, es decir, un punto sugerido de envoltura donde el texto de
+                         múltiples líneas puede ser dividido para mejorar su legibilidad. </td>
+                </tr>
+    
+    
+            </table>
+
+
+    </body>
+
 </html>
